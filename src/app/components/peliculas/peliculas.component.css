@@ -1,0 +1,67 @@
+﻿.container {
+  background: #f4f6f8;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #333;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+  background: transparent;
+  border-bottom: 1px solid #eee;
+  font-weight: 600;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: 0.2s;
+}
+
+.form-control:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.1);
+}
+
+.btn-primary {
+  background-color: #00cf23;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #554ee0;
+}
+
+.btn-danger {
+  border-radius: 8px;
+}
+
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #6c63ff;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background-color: #f2f3ff;
+}
+
+.text-center {
+  color: #888;
+  font-style: italic;
+}
